@@ -1,0 +1,2040 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+button {
+    width: 100px;
+    border-radius: 30px;
+    background-color: #96c8e9;
+    height: 45px;
+    border: hidden;
+    color: white;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #23485a;
+    cursor: pointer;
+}
+
+/* ========================================== main header ============================================================= */
+/* ========================================== main header =================================================================== */
+/* ========================================== main header ======================================================================== */
+
+main header .container {
+    width: 100%;
+    height: 100vh;
+    background-color: #37517e;
+    /* display: flex; */
+}
+
+main header .container1 {
+    display: flex;
+}
+main header .logo{
+    width: 30%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+main header .container .logo:hover{
+    /* color:#96c8e9; */
+    transform: scale(1.5) rotate(360deg);
+    transition: all 0.4s ease-in;
+}
+main header .head {
+    padding-left: 136px;
+    padding-right: 68px;
+    width: 70%;
+    height: 70px;
+    font-size: 20px;
+    /* color: black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+main header .head ul {
+    color: rgb(247, 242, 242);
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+
+}
+main header .head ul li{
+    list-style-type: none;
+}
+main header .head ul li a {
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: space-between;
+    text-decoration: none ;
+}
+main header .button {
+    width: 120px;
+
+}
+main header .head ul li a:hover{
+    color: rgb(58, 190, 219);
+    text-decoration: underline;
+    transform: scale(1.2);
+    transition: all 0.1s ease-in;
+    cursor: pointer;
+}
+main header .container .container3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height:100vh;
+    justify-content: space-around;
+}
+
+main header .container .sec1 {
+    width: 34%;
+    height: 350px;
+    color: white;
+}
+
+main header .container .sec2 {
+    width: 30%;
+    height: 350px;
+    position: relative;
+}
+main header .container .sec2 img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    animation-name: photoanimation;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    margin-top: 0px;
+    animation-iteration-count: infinite;
+}
+@keyframes photoanimation {
+
+    25% {
+        margin-top: -10px;
+    }
+
+    50% {
+        margin-top: 0px;
+    }
+    75% {
+        margin-top: 20px;
+    }
+}
+main header .container .sec1 .sen1 {
+    margin-bottom: 10px;
+    font-size: 30px;
+
+}
+
+main header .container .sec1 .sen2 {
+    font-size: 25px;
+    color: #e4e4e4;
+    margin-bottom: 30px;
+}
+
+main header .container .sec1 .sen3 .button2 {
+    width: 130px;
+    border: hidden;
+}
+main header .container .sec1 .sen4 {
+
+    font-size: 33px;
+    margin-left: 39px;
+    margin-top: 4px;
+}
+main header .container .sec1 .sen4:hover{
+    cursor: pointer;
+    color: rgb(145, 163, 216);
+}
+main header .container .sec1 .iconcontainer {
+    display: flex;
+
+}
+
+main header .container .sec1 .btn3 {
+    margin-left: 6px;
+    margin-top: 7px;
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+}
+
+main header .container .sec1 .btn3 a {
+    margin-left: 6px;
+    margin-top: 7px;
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+}
+main header .container .sec1 .btn3:hover {
+    /* color: rgb(58, 190, 219); */
+    text-decoration: underline;
+    /* transform: scale(1.2); */
+    /* transition: all 0.1s ease-in; */
+    cursor: pointer;
+}
+
+main header .container .sec1 .btn3:hover a{
+    color: rgb(58, 190, 219);
+    text-decoration: underline;
+    /* transform: scale(1.2); */
+    /* transition: all 0.1s ease-in; */
+    cursor: pointer;
+}
+
+@keyframes photoanimation {
+
+    25% {
+        margin-top: -10px;
+    }
+
+    50% {
+        margin-top: 0px;
+    }
+    75% {
+        margin-top: 10px;
+    }
+}
+/* =============================== responsive page 1 ================================= */
+
+
+@media (max-width:768px){
+
+    main header .head {
+        padding-left: 100px;
+        font-size: 15px;}
+
+    main header .container .sec2 img {
+        width: 100%;
+        height: 62%;}
+    main header .head {
+        padding-left: 43px;
+        font-size: 15px;}
+    button {
+        width: 97px;
+        border-radius: 30px;
+        background-color: #96c8e9;
+        height: 29px;}
+        main section .bar img {
+            width: 63%;
+            height: 43%;
+            margin-top: 24px;}
+            
+}
+
+
+/* ====================== responsive bar =============================== */
+@media (max-width:768px){
+    main section .bar img {
+        width: 57%;
+        height: 48%;
+        margin-top: 23px;}
+}
+
+
+
+
+
+
+
+/* ===================================== main ================================================================= */
+main section .bar {
+    height: 80px;
+    width: 100%;
+    background-color: #d5d5d5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main section .bar .pic1,.pic2,.pic3,.pic4,.pic5,.pic6 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content:space-around;
+
+}
+main section .bar .pic2.pic1.pic3.pic4.pic5.pic6 img{
+    width: 50%;
+    
+}
+main section .bar .pic3{
+    
+}
+main section .bar img {
+    width: 30%;
+    height: 60%;
+    margin-top:18px;
+    margin-bottom: 20px;
+}
+main section .about-us {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 70px;
+    color: #0b0555bc;
+    margin-top: 30px;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+main section .aboutus h1 {
+    font-size: 30px;
+    border-bottom: solid 2px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border-color: #d5d5d5;
+    position: relative;
+    text-align: center;
+
+}
+main section .about-us h1:after {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+content: "";
+width: 180px;
+height: 2px;
+background-color: #c0d8ea;
+position: absolute;
+top: 52px;
+left: 744px;
+/* right: 20px; */
+border-radius: 20px;
+
+}
+main section .about-us h1:before{
+    content: "";
+width: 117px;
+height:3px;
+background-color: #506de2;
+position: absolute;
+bottom: 0px;
+top: 52px;
+z-index: 555;
+border-radius: 20px;
+
+}
+/* =================== responsive bar & about us ============================================= */
+
+@media (max-width:768px){
+    main section .bar img {
+        width: 57%;
+        height: 48%;
+        margin-top: 23px;}
+}
+
+@media (max-width:768px){
+    main header .container .sec1 .sen1{
+        font-size: 13px;
+        /* color: red; */
+
+}
+    main header .head{
+      padding-right: 29px;
+    }
+    main header .container .sec1 .sen2 {
+    font-size: 17px;}
+
+    main header .container .sec1 {
+ width: 38%;
+    height: 324px;}
+    main header .container .sec1 .sen4 {
+     font-size: 34px;
+     margin-left: 26px;
+     margin-top: -3px;}
+     main header .container .sec1 .btn3 {
+       margin-left: 5px;
+       margin-top: 4px;
+       font-size: 18px;}
+    main header .container .sec1 .sen3 .button2 {
+                        width: 115px;}
+
+    main section .about-us h1:after {
+        left: 289px;}
+    main header .container .sec1 .btn3 a {
+            margin-left: 6px;
+            margin-top: 5px;
+            font-size: 19px;
+            color: white;
+            text-decoration: none;}
+    main section .texts {
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                width: 100%;
+                height: 325px;}
+    main section .about-us {
+                    width: 100%;
+                    height: 70px;
+                    margin-bottom: -13px;
+                   }
+}
+
+
+/* ========================= tablet ======================================================== */
+@media (max-width:768px){ 
+    main header .container .sec1 .sen1 {
+        margin-bottom: 10px;
+        font-size: 13px;
+    } 
+    main section .about-us h1:before {
+        content: "";
+        width: 126px; 
+    }
+    main header .container .sec1 {
+        width: 48%;
+        height: 500px;
+        color: white;
+    }
+
+    main section .about-us h1:after {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        content: "";
+        width: 185px;
+        height: 3px;
+        background-color: #c0d8ea;
+        position: absolute;
+        top: 52px;
+        left:298;
+        border-radius: 20px;
+    }
+}
+
+/* @media (min-width:1024) {
+    main header .container .sec1 {
+        width: 30%;
+        height: 309px;
+        color: white;
+}
+main header .container .sec1 .sen1 {
+    margin-bottom: 10px;
+    font-size: 17px;}
+} */
+main section .texts {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 400px;
+    /* background-color: red; */
+    color: #413e3e;
+
+}
+
+main section .texts .text1,
+.text2 {
+    width: 40%;
+    height: 70%;
+    /* background-color: green; */
+    font-size: 20px;
+
+}
+
+main section .texts .text1 .headtext {
+    margin-bottom: 20px;
+}
+
+main section .texts .text1 .sectext1 {
+    margin-bottom: 20px;
+
+}
+
+main section .texts .text1 .sectext2 {
+    margin-bottom: 20px;
+}
+
+main section .texts .text1 .sectext3 {
+    margin-bottom: 20px;
+}
+
+.fa-circle-check {
+    color: #47b2e4;
+}
+
+.textbutton {
+    border-radius: 7px;
+    background-color: #ffffff;
+    border: solid 2px;
+    color: #066bbd;
+    width: 150px;
+    /* border: #d82626; */
+}
+.textbutton:hover{
+    color: white;
+}
+section .texts .text2 .sectext4 {
+    margin-bottom: 20px;
+}
+
+/* ===============================container3======================================================= */
+section .container3 {
+    width: 100%;
+    height: 600px;
+    background-color: #d5d5d5;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+section .container3 .container4 {
+    width: 40%;
+    height: 450px;
+    margin-left: -50px;
+}
+
+section .container3 .pic {
+    position: relative;
+    width: 25%;
+    height: 450px;
+    
+}
+
+section .container3 .container4 .maintext {
+    font-size: 28px;
+    margin-bottom: 15px;
+    color: #0d192d;
+}
+
+section .container3 .container4 .box1 {
+
+    width: 100%;
+    height: 130px;
+    background-color: #0072C1;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    padding-top: 15px;
+    box-shadow: -20px 5px 13px 5px rgb(95, 88, 88);
+
+}
+
+section .container3 .container4 .box1:hover{
+    background-color: #449dcd;
+    scale:1.1;
+    cursor: pointer;
+}
+section .container3 .container4 .box2 {
+    width: 100%;
+    height: 65px;
+    background-color: #0072C1;
+    margin-bottom: 15px;
+    padding-top: 15px;
+    box-shadow: -20px 5px 13px 5px rgb(95, 88, 88);
+
+}
+section .container3 .container4 .box2:hover{
+    background-color: #449dcd;
+    scale:1.1;
+    cursor: pointer;
+}
+section .container3 .container4 .box3 {
+    width: 100%;
+    height: 65px;
+    background-color: #0072C1;
+    padding-top: 15px;
+    box-shadow: -20px 5px 13px 5px rgb(95, 88, 88);
+
+}
+section .container3 .container4 .box3:hover{
+    background-color: #449dcd;
+    scale:1.1;
+    cursor: pointer;
+}
+section .container3 .container4 .paragraph {
+    color: #413e3e;
+}
+
+section .container3 .container4 h4 {
+    color: #f8faff;
+    margin-left: 15px;
+
+}
+
+section .container3 .container4 .paragraph2 {
+    color: #ffffff;
+    margin: 15px;
+}
+
+.container4 span {
+    color: #052432;
+}
+
+/* .container4 .box1 h4:hover {
+    color: #031d30;
+}
+
+.container4 .box2 h4:hover {
+    color: #031d30;
+}
+
+.container4 .box3 h4:hover {
+    color: #031d30;
+}
+
+.container4 .box1 p:hover {
+    color: #031d30;
+} */
+
+.pic img {
+    width: 128%;
+    height: 100%;
+    position: absolute;
+    margin-top: 0px;
+
+}
+/* =========== responsive ============================ */
+@media (max-width:768px){
+   
+    .pic img {
+        
+        width: 99%;
+        height: 52%;
+        /* position: absolute; */
+        margin-top: 115px;}
+        section .container3 .container4 .box1 {
+            width: 128%;
+            height: 131px;
+            background-color: #0072C1;
+            margin-bottom: 11px;
+            margin-top: -1px;
+            padding-top: 9px;}
+            section .container3 .container4 .maintext {
+                font-size: 19px;
+                margin-bottom: 1px;}
+                section .container3 {
+                    
+                        width: 100%;
+                        height: 900px;
+                    height: 473px;}
+                    main header .container .container3 {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        width: 100%;
+                        height: 700px}
+                    }
+
+
+
+
+
+/*==================================== container 5 ===================================================== */
+section .container5 {
+    width: 100%;
+    height: 500px;
+    background-color: white;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+section .container5 .sec1 {
+    width: 40%;
+    height: 350px;
+    /* background-color: yellow; */
+    margin-right: -220px;
+}
+
+section .container5 .sec1 img {
+    width: 100%;
+    height: 100%;
+}
+
+section .container5 .sec2 {
+    width:40%;
+    height: 350px;
+
+    /* background-color: green; */
+}
+
+section .container5 .sec2 h1 {
+    color: #37517e;
+    margin-bottom: 15px;
+}
+
+section .container5 .sec2 p {
+    color: #413e3e;
+    margin-bottom: 15px;
+}
+
+/* section .container5 .sec2 .bar1,
+.bar2,
+.bar3,
+.bar4 {
+    width: 100%;
+    background-color: #e0e0e0; 
+ border-radius: 25px;
+ overflow: hidden;
+ height: 30px;
+    animation-name: animation2;
+   animation-duration: 2s;
+   animation-timing-function: ease-out;
+   animation-delay: .5s;
+    background-color: #425474; 
+   lighting-color: #5980c3;  */
+/* width: 100%;
+    background-color: #071935;
+    height: 10px;
+    margin-bottom: 20px; */
+    
+
+section .container5 .sec2 .bar1{
+    width: 100%;
+    background-color: #e0e0e0; 
+ border-radius: 25px;
+ overflow: hidden;
+ height: 30px;
+    animation-name: animation2;
+   animation-duration: 2s;
+   animation-timing-function: ease-out;
+   animation-delay: .5s;
+    background-color: #425474; 
+   lighting-color: #5980c3; 
+
+}
+
+
+section .container5 .sec2 .bar2{
+    width: 100%;
+    background-color: #e0e0e0; 
+ border-radius: 25px;
+ overflow: hidden;
+ height: 30px;
+    animation-name: animation2;
+   animation-duration: 2s;
+   animation-timing-function: ease-out;
+   animation-delay: .5s;
+    background-color: #8cafec; 
+   lighting-color: #5980c3; 
+
+}
+
+
+
+section .container5 .sec2 .bar3{
+    width: 100%;
+    background-color: #e0e0e0; 
+ border-radius: 25px;
+ overflow: hidden;
+ height: 30px;
+    animation-name: animation2;
+   animation-duration: 2s;
+   animation-timing-function: ease-out;
+   animation-delay: .5s;
+    background-color: #8cafec; 
+   lighting-color: #5980c3; 
+
+}
+
+
+
+section .container5 .sec2 .bar4{
+    width: 100%;
+    background-color: #e0e0e0; 
+ border-radius: 25px;
+ overflow: hidden;
+ height: 30px;
+    animation-name: animation2;
+   animation-duration: 2s;
+   animation-timing-function: ease-out;
+   animation-delay: .5s;
+    background-color: #7698d3; 
+   lighting-color: #5980c3; 
+}
+
+
+section .container5 .sec2 .percent1 {
+    display: inline-block;
+    margin-right: 85%;
+    margin-bottom: 10px;
+}
+
+section .container5 .sec2 .percent2 {
+    margin-top: 10px;
+    display: inline-block;
+    margin-right: 84%;
+    margin-bottom: 10px;
+    /* border-radius: 25px; */
+    /* overflow: hidden; */
+    height: 17px;
+}
+
+section .container5 .sec2 .percent3 {
+    margin-top: 10px;
+    display: inline-block;
+    margin-right: 384px;
+    margin-bottom: 10px;
+}
+
+section .container5 .sec2 .percent4 {
+    margin-top: 10px;
+    display: inline-block;
+    margin-right: 252px;
+    margin-bottom: 10px;
+   
+}
+/* section .container5 .sec2 .spann{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+} */
+section .container5 .sec2 .bar1 {
+    width: 100%;
+    animation-name: animation1;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+    animation-delay: 5s;
+/* background-color: #0d192d; */
+}
+main section .container5 .sec2 .bar1 .empty{
+
+    width: 100%;
+     background-color: #e0e0e0; 
+  border-radius: 25px;
+  overflow: hidden;
+  height: 30px;
+     animation-name: animation2;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+    animation-delay: 5s;
+     background-color:  #425474; 
+    lighting-color: #60749d; 
+
+}
+
+main section .container5 .sec2 .bar2 .empty{
+
+    width:90% ;
+     background-color: #e0e0e0; 
+  border-radius: 25px;
+  overflow: hidden;
+  height: 30px;
+     animation-name: animation2;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+    animation-delay: 5s;
+     background-color:  #425474; 
+    lighting-color: #60749d;  }
+
+
+    main section .container5 .sec2 .bar3 .empty{
+
+        width: 75%;
+         background-color: #e0e0e0; 
+      border-radius: 25px;
+      overflow: hidden;
+      height: 30px;
+         animation-name: animation2;
+        animation-duration: 2s;
+        animation-timing-function: ease-out;
+        animation-delay: 5s;
+         background-color:  #425474; 
+        lighting-color: #60749d; }
+
+
+
+
+
+        main section .container5 .sec2 .bar4 .empty{
+
+            width: 55%;
+             background-color: #e0e0e0; 
+          border-radius: 25px;
+          overflow: hidden;
+          height: 30px;
+             animation-name: animation2;
+            animation-duration: 2s;
+            animation-timing-function: ease-out;
+            animation-delay: 5s;
+             background-color:  #425474; 
+            lighting-color: #60749d; }
+
+            section .container5 .sec2 .bar2
+ {
+    width: 100%;
+    animation-name: animation3;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    
+
+}
+
+
+section .container5 .sec2 .bar2
+ {
+    width: 100%;
+    animation-name: animation3;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+   
+
+}
+
+section .container5 .sec2 .bar3
+ {
+    width: 100%;
+    animation-name: animation3;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    
+
+}
+
+
+section .container5 .sec2 .bar4 {
+    width: 100%;
+    animation-name: animation4;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+   
+
+}
+@keyframes animation1 {
+    0% {
+        width: 0%;
+        height: 10px;
+    }
+
+    100% {
+        width: 100%;
+        height: 10px;
+    }
+}
+
+@keyframes animation2 {
+    0% {
+        width: 0%;
+        height: 10px;
+    }
+
+    100% {
+        width: 90%;
+    }
+}
+
+@keyframes animation3 {
+    0% {
+        width: 0%;
+        height: 10px;
+    }
+
+    100% {
+        width: 75%;
+    }
+}
+
+@keyframes animation4 {
+    0% {
+        width: 0%;
+        height: 10px;
+    }
+
+    100% {
+        width: 55%;
+    }
+}
+/*==================================== responsive bars ==================== */
+
+
+@media (max-width:768px){
+    section .container5 .sec1 img {
+        width: 85%;
+        height: 65%;
+    margin-top: 100px;}
+    section .container5 .sec2 {
+        width: 60%;
+        height: 358px;}
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+section .container6 {
+    width: 100%;
+    height: 500px;
+    background-color: #b0adad;
+
+
+}
+
+section .container6 .services {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 70px;
+    /* background-color: green; */
+    color: #37517e;
+    margin-top: 30px;
+    position: relative;
+    /* border-bottom: solid; */
+    margin-bottom: 50px;
+
+}
+
+section .container6 .secprag1 {
+    margin-left: 34%;
+    color: #413e3e;
+    margin-bottom: 50px;
+}
+
+section .servicecontainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    justify-content: center;
+
+}
+
+section .servicecontainer .main {
+    background-color: white;
+    width: 210px;
+    height: 230px;
+    box-shadow: -7px 20px 13px 2px #726d6d;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 15px;
+
+}
+
+section .servicecontainer .main:hover {
+    transform: scale(1.1);
+    animation-duration: 2s;
+    background-color: #4a6ca7;
+    color: white;
+    cursor: pointer;
+}
+section .servicecontainer .main p:hover {
+    color: white;
+    cursor: pointer;
+}
+/* section .servicecontainer .main h3:hover{
+    color: white;
+} */
+section .servicecontainer .main .icon {
+    font-size: 35px;
+    color: #4ebcf7;
+    margin-top: 30px;
+
+}
+
+section .servicecontainer .main p {
+    /* color: #000000; */
+    margin-top: 22px;
+}
+
+section .servicecontainer .main h3 {
+    color: #2b2d2d;
+    margin-top: 15px;
+    /* text-shadow: #111010; */
+}
+
+
+main section .services h1:after {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+content: "";
+width: 200px;
+height: 2px;
+background-color: #3b4e5d;
+position: absolute;
+top: 52px;
+left: 740px;
+border-radius: 20px;
+
+}
+/*  ======================== responsive services ============================ */
+@media (max-width:768px)
+{
+    main section .services h1:after {
+        width: 173px;
+        left: 296px;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ================================================================================ */
+main section .services h1:before{
+    content: "";
+width: 117px;
+height:3px;
+background-color: #28acea;
+position: absolute;
+bottom: 0px;
+top: 52px;
+z-index: 555;
+border-radius: 20px;
+
+}
+
+/* =================== cont 6 call to action =========================================== */
+
+
+section .call {
+    width: 100%;
+    height: 200px;
+    padding-top: 80px;
+     background-color: #334b74;
+   
+    
+}
+
+section .call .head {
+    margin-left: 150px;
+    color: white;
+    display: inline-block;
+
+
+}
+
+section .call .prag {
+    color: white;
+    width: 50%;
+    margin-left: 140px;
+    margin-top: 10px;
+}
+section .call .prag .btn {
+    float: right;
+    padding-right: 100px;
+    cursor: pointer;
+}
+section .call button {
+    width: 135px;
+    height: 48px;
+    border-radius: 20px;
+    background-color: #334b74;
+    border: solid white 2px;
+    display: inline-block;
+    margin-left: 80rem;
+    /* float: right; */
+    margin-top: -14px;
+    
+
+}
+
+section .call button:hover {
+    background-color: white;
+    color: #111010;
+    cursor: pointer;
+}
+/* ================================media */
+@media (max-width:768px){
+    section .call button {
+        
+        margin-left: 37rem}
+
+        @media (max-width: 768px) {
+            section .call button {
+                margin-left: 33rem;
+            }
+        }
+        
+        section .call button {
+            width: 124px;
+            height: 36px;}
+
+
+
+}
+
+/* ======================================== portfolio ================================== */
+
+
+
+
+
+section .container7 {
+    width: 100%;
+    height: 1200px;
+    
+}
+
+section .container7 .portfolio {
+   
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: red; */
+    color: #334b74;
+
+    position: relative;
+    margin-bottom: 50px;
+
+}
+
+section .container7 .portfolio h1 {
+    font-size: 30px;
+    padding-bottom: 5px;
+    margin-top: 43px;
+    padding-top: 10px;
+    /* border-color: #0196fa; */
+}
+
+section .container7 .port {
+    color: #050956;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section .container7 .buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #0c0324; */
+}
+
+section .container7 .buttons .first {
+    width: 70px;
+    margin: 8px;
+    margin-top: 30px;
+    background-color: #446d91;
+
+}
+
+section .container7 .buttons .other {
+    width: 70px;
+    margin: 10px;
+    margin-top: 30px;
+    color: #4f575b;
+    background-color: white;
+}
+
+section .container7 .buttons .other:hover {
+    background-color: #47b2e4;
+    color: #e4e4e4;
+    cursor: pointer;
+}
+
+section .container7 .buttons .first:hover {
+    background-color: #47b2e4;
+    cursor: pointer;
+
+}
+
+main section .portfolio h1:after {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+content: "";
+width: 250px;
+height: 2px;
+background-color: #b1b0d1;
+position: absolute;
+top: 82px;
+left: 720px;
+border-radius: 20px;
+
+}
+
+main section .portfolio h1:before {
+        content: "";
+        width: 177px;
+        height: 2.8px;
+        background-color: #28acea;
+        position: absolute;
+        bottom: 0px;
+        top: 82px;
+        left: 753px;
+        z-index: 555;
+        border-radius: 20px;
+}
+@media (max-width:768px){
+
+    main section .portfolio h1:before {
+        left: 299px;
+    }
+    main section .portfolio h1:after {
+        left: 266px;
+    }}
+/* ======================================== my products ===============================*/
+
+section .container7 .products {
+    width: 100%;
+    height: 100vh;
+    /* background-color: gray; */
+    /* margin: 100px; */
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+section .container7 .products .pro1 {
+    width: 350px;
+    height: 320px;
+    margin-top: 10px;
+    position: relative;   
+    margin-bottom: 10px;
+
+}
+section .container7 .products .pro6 {
+    width: 350px;
+    height: 450px;
+    margin-top: 20px;
+    position: relative;    
+    margin-bottom: 10px;
+
+}
+section .container7 .products .pro2 {
+    width: 300px;
+    height:220px;
+    margin-top: 10px;
+    position: relative;    
+    margin-bottom: 10px;
+
+}
+section .container7 .products .pro5 {
+    width: 300px;
+    height: 400px;
+    margin-top: 10px;
+    position: relative;    
+    margin-bottom: 10px;
+
+}
+section .container7 .products .pro9 {
+    width: 300px;
+    height: 200px;
+    margin-top: 10px;
+    position: relative;
+    margin-bottom: 10px;
+}
+section .container7 .products .pro3 {
+    width: 250px;
+    height: 180px;
+    margin-top: 10px;
+    position: relative;    
+    margin-bottom: 10px;
+
+}
+
+section .container7 .products .pro4 {
+    width: 250px;
+    height: 200px;
+    margin-top: 10px;
+    position: relative;    
+    margin-bottom: 10px;
+
+}
+
+section .container7 .products .pro7 {
+    width: 250px;
+    height: 180px;
+    margin-top: 10px;
+    position: relative;
+    margin-bottom: 10px;
+
+}
+
+section .container7 .products .pro8{
+    width: 250px;
+    height: 200px;
+    margin-top: 10px;
+    position: relative;    
+    margin-bottom: 10px;
+
+}
+
+
+
+section .container7 .products img {
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+}
+
+section .products .col1 {
+    margin-left: 100px;
+    margin-bottom: 200px;
+margin-top: 100px;
+}
+
+section .products .col2 {
+    margin-bottom: 50px;
+margin-top: 20px;
+
+
+}
+
+section .products .col3 {
+    margin-right: 100px;
+    margin-bottom: 180px;
+    margin-top: 85px;
+
+}
+
+section .products p {
+    margin:15%;
+    color:white;
+}
+
+.description1,.description2,.description3,.description4,.description5,.description6,.description7,.description8,.description9 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgba(78, 76, 76, 0.837);
+    overflow: hidden;
+    transition: all 0.9s ease-in-out;
+    border-radius: 25px;
+    transform: scale(0);
+}
+/* ========================================= hover description on product ================================ */
+/* ========================================= hover description on product ================================ */
+section .container7 .products .pro1:hover .description1 {
+    transform:scale(1);
+    cursor: pointer;
+}
+
+section .container7 .products .pro2:hover .description2 {
+    transform:scale(1);
+    cursor: pointer;
+}
+
+section .container7 .products .pro6:hover .description6 {
+    transform:scale(1);
+    cursor: pointer;
+}
+
+section .container7 .products .pro5:hover .description5 {
+    transform:scale(1);
+    cursor: pointer;
+}
+
+section .container7 .products .pro9:hover .description9 {
+    transform:scale(1);
+    cursor: pointer;
+}
+
+section .container7 .products .pro3:hover .description3 {
+    transform:scale(1);
+    cursor: pointer;
+}
+
+section .container7 .products .pro4:hover .description4 {
+    transform:scale(1);
+    cursor: pointer;
+}
+
+section .container7 .products .pro7:hover .description7 {
+    transform:scale(1);
+    cursor: pointer;
+}
+section .container7 .products .pro8:hover .description8 {
+    transform:scale(1);
+    cursor: pointer;
+}
+
+
+/* section .container7 .products .pro1,.pro2:hover .description1,.description2{
+    transform: scale(1);
+} */
+
+/* ======================================== end products ===============================*/
+
+
+
+
+
+/* ======================================== team ===============================*/
+
+section .team{
+    width: 100%;
+    /* background-color: blue; */
+    height: 700px;
+}
+
+section .team .portfolio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 70px;
+    /* background-color: green; */
+    color: #37517e;
+
+    position: relative;
+    /* border-bottom: solid; */
+    margin-bottom: 50px;
+
+}
+
+section .team .portfolio h1 {
+    margin-top: 50px;
+    font-size: 30px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border-color: #313131;
+}
+
+section .team .summary {
+    color: #413e3e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+section .team .teamdescription{
+    width: 90%;
+    height: 384px;
+    margin-left: 5%;
+    margin-top: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+section .team .teamdescription .main{
+    width: 47%;
+    height: 48%;
+    border-radius: 5px;
+    /* box-shadow: 0px 1px 15px 7px rgb(101, 101, 101); */
+    filter:drop-shadow(7px 7px 7px rgb(114, 110, 110));
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+border-radius: 32%;
+position:unset;
+
+}
+/* section .team .teamdescription .main{
+    /* box-shadow: 20px 11px 8px 3px rgb(101, 101, 101); */
+
+section .team .main:hover{
+    transform: scale(1.1);
+    background-color: #6ea4da;
+    color: white;
+    cursor: pointer;
+}
+section .team .teamdescription .main:hover p{
+    color: white;
+    cursor: pointer;
+}
+section .team .teamdescription .right{
+    display: flex;
+}
+section .team .teamdescription:hover p{
+    color: white;
+    cursor: pointer;
+}
+section .team .teamdescription .main .member{
+    width: 30%;
+    height: 80%;
+    border-radius:40% ;
+}
+section .team .teamdescription .main .description{
+    width: 55%;
+    height: 60%;
+}
+section .team .teamdescription .main .member img{
+    width: 100%;
+    height: 100%;
+    border-radius: 40%;
+}
+section .team .teamdescription .main .description h3{
+    margin-bottom: 5px;
+    color: #001f54;
+}
+section .team .teamdescription .main .description p {
+    color:#3c3b3b;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+section .team .teamdescription .main .description hr{
+    width: 20%;
+}
+section .team .teamdescription .main .description .icons{
+    /* width: 25px;
+    height: 25px; */
+    display: flex;
+    /* justify-content: center; */
+    
+}
+section .team .teamdescription .main .description .icons .fa-x-twitter{
+    transform: scale(.9);
+    color: rgb(0, 0, 0);
+}
+section .team .teamdescription .main .description .icons .fa-facebook {
+    transform: scale(.9);
+    color: rgb(27, 67, 133);
+}
+section .team .teamdescription .main .description .icons .fa-instagram {
+    transform: scale(.9);
+    color: rgba(237, 34, 34, 0.897);
+}
+section .team .teamdescription .main .description .icons ,.fa-linkedin{
+    transform: scale(.9);
+    color: rgb(54, 100, 174);
+}
+section .team .teamdescription .main .description .icons div{
+    width: 25px;
+    height: 25px;
+    margin-top: 13px;
+    margin-left: 16px;
+    background-color: #b2b2b25c;
+    border-radius: 28%;
+    display: flex;
+    justify-content: center;
+    /* display: inline-block; */
+    align-items: center;
+
+}
+
+
+/* ================================== responsive =========================================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ================================== Pricing =========================================== */
+section .pricing {
+    width: 100%;
+    height: 800px;
+    background-color: #d5d5d5;
+
+}
+
+section .pricing .portfolio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 70px;
+    /* background-color: green; */
+    color: #37517e;
+
+    position: relative;
+    /* border-bottom: solid; */
+    margin-bottom: 50px;
+
+}
+
+section .pricing .portfolio h1 {
+    margin-top: 50px;
+    font-size: 30px;
+    padding-bottom: 20px;
+    padding-top: 23px;
+    
+}
+
+section .pricing .describtion {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #6b6767;
+    
+}
+
+section .pricing .pricedescribtion {
+    width: 100%;
+    height: 600px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+section .pricing .pricedescribtion .lists {
+    width: 23%;
+    height: 450px;
+    box-shadow: -10px 7px 20px 5px #285c74d1;
+    border-radius: 5px;
+    transition: all .4s ease-in-out;
+    padding: 30px;
+}
+
+section .pricing .pricedescribtion .lists:hover {
+    transform: scale(1.07);
+    background-color: white;
+    cursor: pointer;
+}
+
+section .pricing .pricedescribtion .first {
+    margin-left: 20px;
+}
+
+section .pricing .pricedescribtion .third {
+    margin-right: 20px;
+}
+
+section .pricing .pricedescribtion .lists .details h3 {
+    margin-bottom: 10px;
+    color: #37517e;
+}
+
+section .pricing .pricedescribtion .lists .details p {
+    color: #545050;
+    margin-bottom: 5px;
+    margin-top: 20px;
+    font-size: 18px;
+
+}
+
+section .pricing .pricedescribtion .lists .details p span {
+    font-size:45px;
+    color: #0784c8;
+    
+}
+
+section .pricing .pricedescribtion .lists .details p .fa-check {
+    color: rgb(43, 173, 43);
+}
+
+section .pricing .pricedescribtion .lists .details .buynow {
+    margin-top: 50px;
+    width: 50%;
+    background-color: white;
+    color: #1d95cc;
+    border: solid 2px;
+    transition: all .5s ease-in-out;
+}
+section .pricing .pricedescribtion .lists .details .buynow:hover{
+    cursor: pointer;
+    color: #ffffff;
+    background-color: #2c90c5bc;
+    transition: 0.1s;
+}
+/* section .pricing .pricedescribtion .lists:hover .buynow {
+    color: white;
+    border: hidden;
+    background-color: #449dcd;
+
+
+} */
+
+section .pricing .pricedescribtion .lists button:hover .buynow {
+    color: white;
+    background-color: #2f5e90;
+    cursor: pointer;
+}
+
+
+
+
+/* ===================================== footer =============================================== */
+/* ===================================== footer =============================================== */
+/* ===================================== footer =============================================== */
+
+
+
+main .footer1  {
+   width: 100%;
+    height: 40vh;
+    /* background-color: red; */
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    /* justify-content:center;
+    align-items:center; */
+    /* background-color: #D5D5D5; */
+    
+}
+main .footer1 .container{
+width: 100%;
+height: 100%;
+display: flex;
+ justify-content:space-around;
+ /* background-color: #D5D5D5; */
+ z-index: 800;
+ position:relative;
+}
+main .footer1 .container h1{
+   
+  
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    position: absolute;
+    width: 100%;
+    z-index: -500;
+    height: 100%;
+    opacity: 0.1;
+    font-size: 150px;
+    margin-top: 70px;
+    color: #311f58;
+
+}
+main .footer1 .container .section1 {
+    width: 30%;
+    height: 100%;
+    margin-top: 50px;
+    margin-left: 50px;
+    /* background-color: #D5D5D5; */
+}
+
+main .footer1 .h2 p {
+    width: 100%;
+    height: 50px;
+    display: flex;
+   align-items: center;
+   justify-content: center;
+   font-size: 40px;
+   margin-top: 20px;
+   color: #614995;
+   text-decoration: none;
+   font-weight: bold;
+}
+main .footer1 .h2 a{
+    text-decoration: none;
+
+}
+main .footer1 .h2 p:hover{
+    transform: scale(1.2);
+    transition: all .5s ease-in-out;
+}
+main .footer1 .h2 .p1{
+    opacity: 0.6;
+}
+main .footer1 .h2 p::first-letter{
+color: red;
+font-size: 200%;
+}
+
+
+main .footer1 h2:hover{
+    transform: scale(1.5) rotate(360deg);
+    /* transition: all 0.4s ease-in; */
+    /* color:#0784C8;/ */
+}
+/* main .footer1  .section1 h2 {
+    font-size: 30px;
+    font-weight: normal;
+    color: var(--color);
+    transition-duration: 0.5s;
+
+
+} */
+/* main .footer1  h2 {
+    
+    display: flex;
+   align-items: center;
+   justify-content: center;
+    
+
+} */
+main .footer1 .container .section1 h2:hover {
+    /* color: #47b2e4; */
+}
+
+main .footer1 .container .section1 span {
+    color: #464644;
+    font-size: 18px;
+}
+
+main .footer1 .container .section1 span .phone,
+main .footer1 .container .section1 span .whatsapp,
+main .footer1 .container .section1 span .email {
+    font-weight: bold;
+border-bottom: #050956;
+}
+
+
+
+
+
+main .footer1 .container .section2 {
+    width: 70%;
+    height: 100%;
+    /* background-color: blue; */
+    /* display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center; */
+
+    display: flex;
+
+}
+main .footer1 .container .section2 .links {
+    width: 20%;
+    height: 20%;
+    /* margin-top: 50px; */
+}
+main .footer1 .container .section2 .links,
+main .footer1 .container .section2 .service,
+main .footer1 .container .section2 .follow {
+    /* width: 30%;
+    height: 90%; */
+    margin-top: 92px;
+}
+main .footer1 .container .section2 a:hover{
+    transform: scale(1.2);
+    transition-duration:0.3s;
+    color: #28ACEA; 
+}
+main .footer1 .container .section2 .follow {
+    margin-left: 125px;
+}
+main .footer1 .container .section2 .links h3,
+main .footer1 .container .section2 .service h3,
+main .footer1 .container .section2 .follow h3 {
+    color: var(--color);
+    transition-duration: 0.5s;
+
+}
+
+main .footer1 .container .section2 .links h3:hover {
+    cursor: pointer;
+}
+
+main .footer1 .container .section2 .service h3:hover {
+    cursor: pointer;
+}
+
+main .footer1 .container .section2 .follow h3:hover {
+    cursor: pointer;
+}
+
+
+main .footer1 .container .section2 .links a,
+main .footer1 .container .section2 .service a {
+    text-decoration: none;
+    color: #02669b;
+    margin: 10px 0px;
+    font-size: 18px;
+    display: inline-block;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+
+
+
+main .footer1 .container .section2 .service a:hover{
+    color:#4b3775 ;
+}
+main .footer1 .container .section2 .links a:hover{
+    color:#4b3775 ;
+}
+
+main .footer1 .container .section2 .links a span,
+main .footer1 .container .section2 .service a span {
+    font-size: 14px;
+    color: #47b2e4;
+}
+
+main .footer1 .container .section2 .follow p {
+    font-size: 18px;
+    color: #464644;
+    margin: 20px 0px;
+    font-weight: bold;
+}
+
+
+main .footer1 .container .section2 .follow .fa-x-twitter,
+main .footer1 .container .section2 .follow .fa-facebook,
+main .footer1 .container .section2 .follow .fa-instagram,
+main .footer1 .container .section2 .follow .fa-linkedin {
+    font-size: 30px;
+    margin: 10px 10px;
+    transition: all 0.5s;
+    float: inline-end;
+    margin-top: 120px;
+
+}
+
+
+main .footer1 .container .section2 .follow .fa-x-twitter {
+    transform: scale(1.2);
+    color: black;
+
+
+}
+
+main .footer1 .container .section2 .follow .fa-facebook {
+    transform: scale(1.2);
+    color: #37517e;
+
+
+}
+
+main .footer1 .container .section2 .follow .fa-instagram {
+    transform: scale(1.2);
+    color: #d01212fe;
+
+
+}
+
+main .footer1 .container .section2 .follow .fa-linkedin {
+    transform: scale(1.2);
+    color: #557fc7;
+
+
+}
